@@ -10,6 +10,7 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScopedModel<MyModel>(
       model:  myModel,
+//Закометировал, чтобы появлялась кнопка назад!
 //      child: MaterialApp(
 //
 //          title: 'Flutter Demo1',
