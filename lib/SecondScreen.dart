@@ -11,6 +11,7 @@ class SecondScreen extends StatelessWidget {
     return ScopedModel<MyModel>(
       model:  myModel,
 //Закометировал, чтобы появлялась кнопка назад!
+    //Это можно удалить
 //      child: MaterialApp(
 //
 //          title: 'Flutter Demo1',
